@@ -42,6 +42,30 @@ nav{
         font-size:15px;
     }
 
+    /*Hero image*/
+    .hero-image {
+        background-size: cover;
+        min-height: 800px;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(../images/hero-image.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .cover-text {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        color: #f8f8ff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*Box 1*/
+
 
 
 

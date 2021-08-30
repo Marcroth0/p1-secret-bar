@@ -1,5 +1,5 @@
 body {
-    margin:0;
+    margin:0; 
     padding:0;
     border:none;
 }
@@ -9,3 +9,39 @@ header {
     top:0;
     z-index: 9999999999;
 }
+
+/*Transparent nav-bar*/
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100px;
+    padding:10px 90px;
+    box-sizing:border-box;
+    background:rgba(0,0,0,0.6);
+    }
+    nav .logo {
+        padding:30px;
+        height:100px;
+    float:left;
+    color:whitesmoke;
+    }
+
+    nav ul {
+        list-style:none;
+        float:right;
+        margin:0;
+        padding:0;
+        display:flex;
+    }
+    nav ul li a{
+        text-decoration:none;
+        line-height:90px;
+        color:whitesmoke;
+        font-size:15px;
+    }
+
+
+
+

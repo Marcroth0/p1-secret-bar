@@ -80,9 +80,10 @@ nav{
         color: white;
     }
     
-    .box-1 p {
+    .box-1 {
         width: 100%;
         height: 100%;
+        padding: 0 30px 0 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -95,7 +96,72 @@ nav{
         background-repeat: no-repeat;
     }
 
+    /*Parallax two*/
+    .parallax-two {
+        background-image: url(../images/parallax-two.jpg);
+        min-height: 500px;
+    
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
+    /*Box 2*/
+    .box-2 {
+        width: 100%;
+        height: 100%;
+        padding: 0 30px 0 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .box-2-img {
+        background-image: url(../images/box-img-two.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+/*parallax three*/
+.parallax-three {
+    background-image: url(../images/parallax-three.jpg);
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    /*box three*/
+    .box-3 {
+        width: 100%;
+        height: 100%;
+        padding: 0 30px 0 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .box-3-img {
+        background-image: url(../images/box-img-three.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    /*parallax four*/
+    .parallax-four {
+        background-image: url(../images/parallax-four.jpg);
+        min-height: 500px;
+    
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 /*Footer*/
 
 footer {
@@ -106,4 +172,10 @@ footer {
     padding:10px 90px;
     box-sizing:border-box;
     background:rgba(0,0,0,0.6);
+}
+
+@media screen and (max-width: 992px) {
+    .boxes {
+        flex-direction: column;
+    }
 }

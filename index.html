@@ -21,9 +21,9 @@
             </a>
             <div class="links">
             <ul>
-                <li><a href="xxx">The Secret</a></li>
-                <li><a href="xxx">The Why</a></li>
-                <li><a href="xxx">The Answer</a></li>
+                <li><a href="#why">The Why</a></li>
+                <li><a href="#secret">The Secret</a></li>
+                <li><a href="#answer">The Answer</a></li>
             </ul>
             </div>
         </nav>
@@ -34,7 +34,7 @@
         <div class="hero-image">
         <div class="cover-text">
             <h2>Something</h2>
-            <h3>Something else</h3>
+            <h3 id="why">Something else</h3>
         </div>
         </div>
     </section>
@@ -48,7 +48,7 @@
         <div class="box-1-img"></div>
     </section>
 
-    <div class="parallax-two"></div>
+    <div class="parallax-two" id="secret"></div>
 
     <section class="boxes">
         <div class="box-2-img"></div>
@@ -61,7 +61,7 @@
         
     </section>
 
-    <div class="parallax-three"></div>
+    <div class="parallax-three" id="answer"></div>
 
     <section class="boxes">
         <div class="box-3-img"></div>
@@ -73,6 +73,34 @@
         </div>
     </section>
     <div class="parallax-four"></div>
+<section class=form-section>
+    <form action="results.html" method="get" class="signup-form">
+        
+            <h3>Can you dig it?</h3>
+       
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" class="text-input">
+        </div>
+        <div>
+            <label for="street-name">Street-name:</label>
+            <input type="text" name="street-name" id="street-name" class="text-input">
+        </div>
+        <label for="email">Email:</label>
+        <input type="email" name="email_address" id="email" class="text-input">
+    </div>
+        <div>
+            <label for="age">Of whiskey age?</label>
+            <input type="number" name="age" id="age" min="18" max="123" required>
+        </div>
+        <div>
+            <label for="file">Picture of your dog:</label>
+            <input id="file" type="file" name="file" required>
+        </div>
+        <input class="join-button" type="submit" value="Let's Run!">
+    </form>
+</section>
+
     <footer>Footer</footer>
     
 </body>

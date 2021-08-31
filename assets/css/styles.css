@@ -241,7 +241,7 @@ header {
         background-repeat: no-repeat;
     }
 
-    /*parallax four*/
+ /* parallax four */
     .parallax-four {
         background-image: url(../images/parallax-four.jpg);
         min-height: 500px;
@@ -265,6 +265,8 @@ header {
         position:relative;
         display:block;
         text-align: center;
+        /* filter: blur(8px);
+        -webkit-filter: blur(8px); */
 }
 
 .signup-form {
@@ -275,12 +277,20 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    padding:0 10px 0 10px;
+    padding:0 10px 40px 10px;
+    border:1px solid red;
+    /* z-index: 3; */
+    
+    
+}
+
+.form-section.signup-form {
 }
 
 .signup-form > h2 {
     color:#fafafa;
     margin-bottom:20px;
+    
     
 }
 
@@ -293,6 +303,7 @@ header {
     margin:5px 0 20px 0;
     border:1px solid #fafafa;
     border-radius:2px;
+    
 }
 
 .text-input div label {
@@ -310,6 +321,24 @@ footer {
     padding:10px 90px;
     box-sizing:border-box;
     background:rgba(0,0,0,0.6);
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+    color:white;
+    padding:0 20px 0 20px;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #f0ebeb;
 }
 
 @media screen and (max-width: 992px) {

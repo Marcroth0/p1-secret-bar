@@ -439,6 +439,12 @@ footer {
         font-size: 14px;
     }
     .logo-nav img {
-        padding: 0;
+        display: flex;
+    }
+    .parallax-three,
+    .parallax-two,
+    .parallax-four {
+        background-attachment: scroll;
+        min-height: 400px;
     }
 }

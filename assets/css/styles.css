@@ -438,4 +438,7 @@ footer {
     .body {
         font-size: 14px;
     }
+    .logo-nav img {
+        padding: 0;
+    }
 }

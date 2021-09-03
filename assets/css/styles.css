@@ -443,7 +443,9 @@ footer {
     }
     .parallax-three,
     .parallax-two,
-    .parallax-four {
+    .parallax-four,
+    .hero-image,
+    .form-section {
         background-attachment: scroll;
         min-height: 400px;
     }

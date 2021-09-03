@@ -76,7 +76,7 @@ header {
     background-size: cover;
     min-height: 800px;
     position: relative;
-    background-position: center;
+    background-position: center-top;
     background-repeat: no-repeat;
     background-image: url(../images/hero-image.jpg);
     background-attachment: fixed;

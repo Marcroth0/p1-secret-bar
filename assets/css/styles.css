@@ -43,7 +43,7 @@ header {
 }
 
 .links li:hover {
-    background-color:rgba(180,180,180,0.3)
+    background-color:rgba(149, 42, 66, 0.6)
 }
 
 .hamburger {
@@ -94,42 +94,7 @@ header {
     }
 }
 
-/*Transparent nav-bar*/
-/*
-.header {
-    position:fixed;
-    display:flex;
-    justify-content:space-between;
-    top:0;
-    left:0;
-    width:100%;
-    height:100px;
-    padding:10px 90px;
-    box-sizing:border-box;
-    background:rgba(0,0,0,0.6);
-    
-    }
-    nav .logo {
-        padding:30px;
-        height:100px;
-    float:left;
-    color:whitesmoke;
-    }
 
-    nav ul {
-        list-style:none;
-        
-        margin:0;
-        padding:0;
-        display:flex;
-    }
-    nav ul li a{
-        text-decoration:none;
-        line-height:90px;
-        color:whitesmoke;
-        font-size:15px;
-    } 
-    */
 
     /*Hero image*/
     .hero-image {
@@ -191,7 +156,6 @@ header {
     .parallax-two {
         background-image: url(../images/parallax-two.jpg);
         min-height: 500px;
-    
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -219,7 +183,6 @@ header {
 .parallax-three {
     background-image: url(../images/parallax-three.jpg);
     min-height: 500px;
-
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -247,7 +210,6 @@ header {
     .parallax-four {
         background-image: url(../images/parallax-four.jpg);
         min-height: 500px;
-    
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -259,57 +221,61 @@ header {
 .form-section {
     
     background: url("../images/parallax-four.jpg");
-    min-height: 500px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position:relative;
-        display:block;
-        text-align: center;
-        /* filter: blur(8px);
-        -webkit-filter: blur(8px); */
+    min-height: 700px;
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    display:block;
+    
 }
 
 .signup-form {
     color:#fff;
     background-color:rgba(60, 60, 60, 0.6);
     width:50vh;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
     padding:0 10px 40px 10px;
-    border:1px solid red;
-    /* z-index: 3; */
-    
-    
-}
-
-.form-section.signup-form {
-}
-
-.signup-form > h2 {
-    color:#fafafa;
-    margin-bottom:20px;
-    
+    border:1px solid black;
+    text-align:center;
     
 }
 
-
-.text-input {
+ .text-input {
     background:transparent;
     color:#fafafa;
     width:90%;
     height:25px;
     margin:5px 0 20px 0;
-    border:1px solid #fafafa;
-    border-radius:2px;
-    
+    border:1px solid white;
+    border-radius:3px;
+} 
+
+input[type="file"], input[type="number"] {
+    margin:5px;
 }
 
-.text-input div label {
-    margin-left:30px;
+#file {
+    text-align:center;
+    border:1px solid white;
+}
+
+#join-button {
+    margin-top:20px;
+    border-radius:2px;
+    padding:15px 32px 15px 32px;
+    text-align:center;
+    font-size:100%;
+    background-color:#952a42;
+    color:#fafafa;
+    display:block;
 }
 
 

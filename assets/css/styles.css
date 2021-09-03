@@ -22,11 +22,16 @@ header {
     color: whitesmoke;
 }
 
-.logo {
-    font-size: 30px;
-    margin: 10px;
-    text-decoration: none;
-    list-style-type: none;
+.logo-nav {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15vh;
+}
+
+.logo-nav img {
+    height: auto;
+    width: 100%;
+    padding-left: 15px;
 }
 
 .links ul {

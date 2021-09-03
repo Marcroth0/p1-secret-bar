@@ -440,6 +440,7 @@ footer {
     }
     .logo-nav img {
         display: flex;
+        padding: 0;
     }
     .parallax-three,
     .parallax-two,
@@ -448,5 +449,6 @@ footer {
     .form-section {
         background-attachment: scroll;
         min-height: 400px;
+        opacity: 0.8;
     }
 }

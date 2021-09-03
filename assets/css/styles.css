@@ -120,7 +120,7 @@ header {
 .boxes div {
     width: 100%;
     height: 50vh;
-    border: 0 solid #f8f8ff;
+    /* border: 0 solid #f8f8ff; */
     background-color: #000000;
     box-sizing: border-box;
     color: white;
@@ -442,6 +442,10 @@ footer {
         display: flex;
         padding: 0;
     }
+
+    .hero-image {
+        min-height: 200px;
+    }
     .parallax-three,
     .parallax-two,
     .parallax-four,
@@ -450,5 +454,11 @@ footer {
         background-attachment: scroll;
         min-height: 400px;
         opacity: 0.8;
+    }
+    .signup-form {
+        margin-top: 100px;
+    }
+    footer {
+        margin-top: 100px;
     }
 }

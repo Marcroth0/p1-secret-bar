@@ -303,14 +303,13 @@ input[type="number"] {
     background: transparent;
     border: none;
     border-bottom: 4px solid #eee;
-    padding: 3px 20px;
+    padding: 3px 10px;
     text-transform: uppercase;
     font: bold 16px "oswald", sans-serif;
     line-height: 2;
     position: relative;
     display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
     cursor: pointer;
     text-decoration: none;
     overflow: hidden;
@@ -453,10 +452,12 @@ footer {
     .form-section {
         background-attachment: scroll;
         min-height: 400px;
-        opacity: 0.8;
+        opacity: 0.7;
     }
     .signup-form {
         margin-top: 100px;
+    }
+    .buttonfx {
     }
     footer {
         margin-top: 100px;

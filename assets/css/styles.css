@@ -203,10 +203,7 @@ header {
 
 .drinks-boxes {
     display: flex;
-    position: relative;
     text-align: center;
-    justify-content: center center;
-    align-items: center;
 }
 
 .drinks-boxes div {
@@ -218,21 +215,29 @@ header {
 }
 .drinks-1 {
     background-image: url(../images/drinks-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     opacity: 0.9;
     background-position: center center;
 }
 .drinks-2 {
     background-image: url(../images/drinks-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     opacity: 0.9;
     background-position: center center;
 }
 .drinks-3 {
     background-image: url(../images/drinks-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     opacity: 0.9;
     background-position: center center;
 }
 .drinks-4 {
-    background-image: url(../images/drinks-3.jpg);
+    background-image: url(../images/drinks-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     opacity: 0.9;
     background-position: center center;
 }
@@ -453,6 +458,19 @@ footer {
         flex-direction: column;
     }
 }
+@media (max-width: 794px) {
+    .drinks-boxes {
+        flex-direction: column;
+    }
+    .drinks-boxes div {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .drinks-4 {
+        box-shadow: rgba(0, 0, 0, 0.56) 22px 22px 70px 4px;
+    }
+}
 
 @media (max-width: 568px) {
     .hamburger {
@@ -505,8 +523,7 @@ footer {
     .signup-form {
         margin-top: 100px;
     }
-    .buttonfx {
-    }
+
     footer {
         margin-top: 100px;
     }

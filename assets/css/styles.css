@@ -208,6 +208,7 @@ header {
 
 .drinks-boxes div {
     color: #fafafa;
+    text-shadow: 1.5px 1.5px black;
     width: 25%;
     height: 300px;
     border: 1px solid black;
@@ -305,6 +306,7 @@ header {
 
 .signup-form {
     color: #fff;
+    text-shadow: 1px 1px black;
     background-color: rgba(66, 61, 61, 0.6);
     width: 60vh;
     position: absolute;

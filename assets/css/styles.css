@@ -132,7 +132,7 @@ header {
 }
 
 .box-1 > h3 {
-    font-family: oswald;
+    font-family: oswald sans-serif;
     font-size: 2vh;
 }
 
@@ -169,7 +169,7 @@ header {
 }
 
 .box-2 > h3 {
-    font-family: oswald;
+    font-family: oswald sans-serif;
     font-size: 2vh;
 }
 
@@ -261,7 +261,7 @@ header {
 }
 
 .box-3 > h3 {
-    font-family: oswald;
+    font-family: oswald sans-serif;
     font-size: 2vh;
 }
 
@@ -292,7 +292,7 @@ header {
     background-size: cover;
     position: relative;
     display: block;
-    font-family: oswald;
+    font-family: oswald sans-serif;
 }
 
 .signup-form {

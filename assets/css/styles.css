@@ -81,6 +81,7 @@ header {
     background-size: cover;
     min-height: 800px;
     position: relative;
+    overflow: hidden;
     background-position: center-top;
     background-repeat: no-repeat;
     background-image: url(../images/hero-image.jpg);
@@ -93,6 +94,7 @@ header {
     width: 60vh;
     height: 60vh;
     position: absolute;
+    overflow: hidden;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -299,7 +301,7 @@ header {
     color: #fff;
     text-shadow: 1px 1px black;
     background-color: rgba(66, 61, 61, 0.6);
-    width: 60vh;
+    width: 50vh;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -469,7 +471,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 16px;
+    font-size: 1.5rem;
     margin: 1%;
     padding: 6%;
     color: #f0ebeb;
@@ -533,6 +535,11 @@ footer {
 
     .hero-image {
         min-height: 200px;
+    }
+
+    .cover-logo-image {
+        width: 40vh;
+        height: 40vh;
     }
     .parallax-three,
     .parallax-two,

@@ -420,8 +420,8 @@ input[type="number"] {
     background-size: cover;
 }
 .thank-you-text {
-    width: 60vh;
-    height: 60vh;
+    width: 80vh;
+    height: 65vh;
     background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     border-radius: 2px solid white;
@@ -433,6 +433,15 @@ input[type="number"] {
     flex-direction: column;
 }
 
+.thank-you-text p {
+    margin: 0 auto;
+}
+/* map */
+.map {
+    width: 60vh;
+    height: 30vh;
+}
+
 .thank-you-text > h1,
 h2 {
     color: whitesmoke;
@@ -442,7 +451,7 @@ h2 {
 }
 .thank-you-text > h2 {
     font-family: oswald sans-serif;
-    padding: 20px;
+    padding: 5px;
     font-size: 1.5rem;
 }
 .thank-you-text > h1 {
@@ -556,5 +565,12 @@ footer {
 
     footer {
         margin-top: 100px;
+    }
+    .thank-you-text {
+        width: 300px;
+    }
+
+    #map {
+        width: 290px;
     }
 }

@@ -188,22 +188,53 @@ header {
     background-repeat: no-repeat;
 }
 
+/* Drinks boxes*/
+
+#blur {
+    color: transparent;
+    text-shadow: 0 0 8px rgb(146, 144, 144);
+}
+
+.drinks-boxes h2 {
+    text-decoration: underline;
+    font-family: rock salt;
+    font-size: 3vh;
+}
+
 .drinks-boxes {
     display: flex;
     position: relative;
+    text-align: center;
+    justify-content: center center;
+    align-items: center;
 }
 
 .drinks-boxes div {
     color: #fafafa;
-    background: transparent;
-    /* background-color: rgba(0, 0, 0, 0.6); */
     width: 25%;
     height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
     border: 1px solid whitesmoke;
     box-sizing: border-box;
+}
+.drinks-1 {
+    background-image: url(../images/drinks-1.jpg);
+    opacity: 0.9;
+    background-position: center center;
+}
+.drinks-2 {
+    background-image: url(../images/drinks-2.jpg);
+    opacity: 0.9;
+    background-position: center center;
+}
+.drinks-3 {
+    background-image: url(../images/drinks-3.jpg);
+    opacity: 0.9;
+    background-position: center center;
+}
+.drinks-4 {
+    background-image: url(../images/drinks-3.jpg);
+    opacity: 0.9;
+    background-position: center center;
 }
 
 /*parallax three*/

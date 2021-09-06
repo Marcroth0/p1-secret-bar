@@ -87,8 +87,8 @@ header {
     background-attachment: fixed;
     background-size: cover;
 }
-.cover-text {
-    background-image: url(../images/Artboard\ 1.png);
+.cover-logo-image {
+    background-image: url(../images/artboard-1.png);
     background-size: cover;
     width: 60vh;
     height: 60vh;
@@ -99,15 +99,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-}
-
-.cover-text > h2 {
-    font-family: rock salt;
-    font-size: 2rem;
-}
-.cover-text > h3 {
-    font-family: oswald sans-serif;
-    font-size: 1.5rem;
 }
 
 /*Box 1*/
@@ -341,18 +332,6 @@ input[type="number"] {
     border: 1px solid white;
 }
 
-/* .join-button {
-    margin-top:20px;
-    border-radius:2px;
-    padding:15px 32px 15px 32px;
-    text-align:center;
-    font-size:100%;
-    background-color:#952a42;
-    color:#fafafa;
-    display:block;
-    text-transform:uppercase;
-} */
-
 .buttonfx {
     color: whitesmoke;
     outline: none;
@@ -425,6 +404,48 @@ input[type="number"] {
 
 .curtaindown:hover:after {
     transform: translate3D(0, 50%, 0);
+}
+
+/* Thank you page */
+.thank-you-hero-image {
+    background-size: cover;
+    min-height: 800px;
+    position: relative;
+    background-position: center-top;
+    background-repeat: no-repeat;
+    background-image: url(../images/hero-image.jpg);
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+.thank-you-text {
+    width: 60vh;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    border-radius: 2px solid white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.thank-you-text > h1,
+h2 {
+    color: whitesmoke;
+    text-shadow: 0 0 8px rgb(124, 121, 121);
+    text-align: center;
+    justify-content: center;
+}
+.thank-you-text > h2 {
+    font-family: oswald sans-serif;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.thank-you-text > h1 {
+    font-family: Rock Salt;
+    font-size: 2rem;
 }
 
 /*Footer*/

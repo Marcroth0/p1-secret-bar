@@ -547,7 +547,7 @@ footer {
     }
 
     .cover-logo-image {
-        width: 40vw;
+        width: 70vw;
         height: 40vh;
     }
     .parallax-three,
@@ -572,5 +572,9 @@ footer {
 
     #map {
         width: 290px;
+    }
+
+    .social-networks {
+        text-align: justify;
     }
 }

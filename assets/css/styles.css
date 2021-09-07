@@ -183,7 +183,7 @@ header {
 
 /* Drinks boxes*/
 
-#blur {
+.blur {
     color: transparent;
     text-shadow: 0 0 8px rgb(146, 144, 144);
 }

@@ -110,9 +110,14 @@ header {
     box-shadow: rgba(0, 0, 0, 0.56) 22px 22px 70px 4px;
 }
 
+.text-underline {
+    text-decoration: underline;
+    font-style: italic;
+}
+
 .boxes div {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     /* border: 0 solid #f8f8ff; */
     background-color: #000000;
     box-sizing: border-box;
@@ -133,9 +138,10 @@ header {
     font-size: 3vh;
 }
 
-.box-1 > h3 {
+.box-1 > p {
     font-family: oswald sans-serif;
     font-size: 2vh;
+    letter-spacing: 2px;
 }
 
 .box-1-img {
@@ -170,9 +176,10 @@ header {
     font-size: 3vh;
 }
 
-.box-2 > h3 {
+.box-2 > p {
     font-family: oswald sans-serif;
     font-size: 2vh;
+    letter-spacing: 2px;
 }
 
 .box-2-img {
@@ -262,9 +269,10 @@ header {
     font-size: 3vh;
 }
 
-.box-3 > h3 {
+.box-3 > p {
     font-family: oswald sans-serif;
     font-size: 2vh;
+    letter-spacing: 2px;
 }
 
 .box-3-img {

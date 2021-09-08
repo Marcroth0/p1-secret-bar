@@ -133,12 +133,13 @@ header {
     align-items: center;
     justify-content: center;
 }
-.box-1 > h2 {
+
+.boxes h2 {
     font-family: rock salt;
     font-size: 3vh;
 }
 
-.box-1 > p {
+.boxes p {
     font-family: oswald sans-serif;
     font-size: 2vh;
     letter-spacing: 2px;
@@ -171,17 +172,6 @@ header {
     justify-content: center;
 }
 
-.box-2 > h2 {
-    font-family: rock salt;
-    font-size: 3vh;
-}
-
-.box-2 > p {
-    font-family: oswald sans-serif;
-    font-size: 2vh;
-    letter-spacing: 2px;
-}
-
 .box-2-img {
     background-image: url(../images/box-img-two.jpg);
     background-size: cover;
@@ -199,6 +189,11 @@ header {
     text-decoration: underline;
     font-family: rock salt;
     font-size: 3vh;
+}
+
+.drinks-boxes h3 {
+    font-family: oswald sans-serif;
+    font-size: 2.5vh;
 }
 
 .drinks-boxes {
@@ -231,7 +226,10 @@ header {
 .drinks-2:hover img,
 .drinks-3:hover img,
 .drinks-4:hover img {
-    box-shadow: 0 0 0 7px #952a42, 0 0 0 8px #ddd;
+    border: 1px solid #952a42;
+    box-shadow: 0 0 0 7px #952a42, 0 0 0 8px #952a42;
+    width: 120px;
+    height: 120px;
 }
 
 /*parallax three*/
@@ -253,17 +251,6 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.box-3 > h2 {
-    font-family: rock salt;
-    font-size: 3vh;
-}
-
-.box-3 > p {
-    font-family: oswald sans-serif;
-    font-size: 2vh;
-    letter-spacing: 2px;
 }
 
 .box-3-img {
@@ -584,9 +571,3 @@ footer {
         text-align: justify;
     }
 }
-
-/* @media (max-width: 390px) {
-    .boxes div {
-        height: 70vh;
-    } 
-}*/

@@ -36,7 +36,7 @@ In this section, you should go over the different parts of your project, and des
     -   The Secret section lets user be a part of the second part of the story where charming Edward is fed up with his creation, seeking other ideas.
     -   In the story four drinks are mentioned, which are also shown underneath in a display with blurred out ingredients (to play on the secrecy)
 
-![The secret](./assets/images/the-secret-readme.png)
+![The secret]()
 
 -   **The Answer section**
 

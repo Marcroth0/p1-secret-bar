@@ -566,7 +566,7 @@ footer {
     .hero-image,
     .form-section {
         background-attachment: scroll;
-        min-height: 400px;
+        min-height: 600px;
     }
     .boxes div {
         border: 1px solid white;

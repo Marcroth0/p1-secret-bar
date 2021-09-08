@@ -9,7 +9,8 @@ body {
 }
 
 header {
-    position: sticky;
+    width: 100%;
+    position: fixed;
     top: 0;
     z-index: 9999999999;
 }
@@ -90,7 +91,10 @@ header {
     background-image: url(../images/hero-image.jpg);
     background-attachment: fixed;
     background-size: cover;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
 }
+
 .cover-logo-image {
     background-image: url(../images/artboard-1.png);
     background-size: cover;
@@ -99,6 +103,7 @@ header {
     position: absolute;
     overflow: hidden;
     top: 50%;
+    z-index: 2;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -409,8 +414,6 @@ input[type="number"] {
     background-size: cover;
 }
 .thank-you-text {
-    width: 80vh;
-    height: 65vh;
     background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     border-radius: 2px solid white;
@@ -427,25 +430,23 @@ input[type="number"] {
 }
 /* map */
 .map {
-    width: 60vh;
+    width: auto;
     height: 30vh;
 }
 
-.thank-you-text > h1,
-h2 {
+.thank-you-text h1 {
     color: whitesmoke;
+    font-family: Rock Salt;
+    font-size: 2rem;
     text-shadow: 0 0 8px rgb(124, 121, 121);
     text-align: center;
     justify-content: center;
 }
-.thank-you-text > h2 {
+.thank-you-text h2 {
+    color: whitesmoke;
     font-family: oswald sans-serif;
     padding: 5px;
     font-size: 1.5rem;
-}
-.thank-you-text > h1 {
-    font-family: Rock Salt;
-    font-size: 2rem;
 }
 
 /*Footer*/

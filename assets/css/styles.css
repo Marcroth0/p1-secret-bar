@@ -192,7 +192,7 @@ header {
 
 .blur {
     color: transparent;
-    text-shadow: 0 0 8px rgb(146, 144, 144);
+    text-shadow: 0 0 5px rgb(146, 144, 144);
 }
 
 .drinks-boxes h2 {
@@ -204,43 +204,34 @@ header {
 .drinks-boxes {
     display: flex;
     text-align: center;
+    background-color: black;
+    padding: 10px 25px 25px 10px;
 }
 
 .drinks-boxes div {
     color: #fafafa;
     text-shadow: 1.5px 1.5px black;
     width: 25%;
-    height: 300px;
+    height: auto;
     border: 1px solid black;
     box-sizing: border-box;
+    padding: 0px 10px 10px 0px;
 }
-.drinks-1 {
-    background-image: url(../images/drinks-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.9;
-    background-position: center center;
+
+.drinks-boxes img {
+    float: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 0 7px black, 0 0 0 8px #ddd;
 }
-.drinks-2 {
-    background-image: url(../images/drinks-2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.9;
-    background-position: center center;
-}
-.drinks-3 {
-    background-image: url(../images/drinks-3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.9;
-    background-position: center center;
-}
-.drinks-4 {
-    background-image: url(../images/drinks-4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.9;
-    background-position: center center;
+.drinks-1:hover img,
+.drinks-2:hover img,
+.drinks-3:hover img,
+.drinks-4:hover img {
+    box-shadow: 0 0 0 7px #952a42, 0 0 0 8px #ddd;
 }
 
 /*parallax three*/
@@ -506,7 +497,8 @@ footer {
     }
     .drinks-boxes div {
         width: 100%;
-        height: 30vh;
+        padding: 0px;
+        align-items: center;
     }
 
     .drinks-4 {

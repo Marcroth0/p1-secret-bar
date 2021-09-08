@@ -96,10 +96,12 @@ header {
 }
 
 .cover-logo-image {
-    background-image: url(../images/artboard-1.png);
-    background-size: cover;
-    width: 60vh;
-    height: 60vh;
+    background-image: url(../images/hero-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70vh;
+    height: 55vh;
+    margin-top: 10vh;
     position: absolute;
     overflow: hidden;
     top: 50%;
@@ -540,6 +542,7 @@ footer {
     }
 
     .cover-logo-image {
+        margin-top: 0;
         width: 100%;
         background-size: contain;
         background-repeat: no-repeat;

@@ -127,7 +127,7 @@ header {
 .box-1 {
     width: 100%;
     height: 100%;
-    padding: 0 30px 0 30px;
+    padding: 15px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,7 +164,7 @@ header {
 .box-2 {
     width: 100%;
     height: 100%;
-    padding: 0 30px 0 30px;
+    padding: 15px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -257,7 +257,7 @@ header {
 .box-3 {
     width: 100%;
     height: 100%;
-    padding: 0 30px 0 30px;
+    padding: 15px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -555,8 +555,10 @@ footer {
     }
 
     .cover-logo-image {
-        width: 90vw;
-        height: 50vh;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     .parallax-three,
     .parallax-two,
@@ -565,13 +567,14 @@ footer {
     .form-section {
         background-attachment: scroll;
         min-height: 400px;
-        opacity: 0.7;
     }
     .boxes div {
         border: 1px solid white;
+        height: auto;
     }
     .signup-form {
         margin-top: 100px;
+        width: auto;
     }
 
     footer {
@@ -589,3 +592,9 @@ footer {
         text-align: justify;
     }
 }
+
+/* @media (max-width: 390px) {
+    .boxes div {
+        height: 70vh;
+    } 
+}*/

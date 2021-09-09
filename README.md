@@ -22,7 +22,7 @@ In this section, you should go over the different parts of your project, and des
     -   A big centered logo in front of a background that sets the mood of the rest of the website.
     -   The Parallax-effect instantly sets the need for scrolling to stay on the site.
 
-![Landing Page](./assets/images/landing-page-readme.png)
+![Landing Page](./assets/images/hero-image-readme.png)
 
 -   **The Why section**
 
@@ -36,7 +36,7 @@ In this section, you should go over the different parts of your project, and des
     -   The Secret section lets user be a part of the second part of the story where charming Edward is fed up with his creation, seeking other ideas.
     -   In the story four drinks are mentioned, which are also shown underneath in a display with blurred out ingredients (to play on the secrecy)
 
-![The secret]()
+![The secret](./assets/images/the-secret-readme.png)
 
 -   **The Answer section**
 
@@ -45,37 +45,24 @@ In this section, you should go over the different parts of your project, and des
 
     ![The secret](./assets/images/the-answer-readme.png)
 
+    **The Form section**
+
+    -
+    -
+
+    ![The form](./assets/images/form-readme.png)
+
 -   **The Footer**
 
-    -   The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-    -   The footer is valuable to the user as it encourages them to keep connected via social media
+### Existing Features
 
--   **Gallery**
-
-    -   The gallery will provide the user with supporting images to see what the meet ups look like.
-    -   This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
-
--   **The Sign Up Page**
-
-    -   This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+**UX**
 
 ### Features Left to Implement
 
 -   Another feature idea
 
 ## Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ### Validator Testing
 
@@ -100,10 +87,6 @@ This section should describe the process you went through to deploy the project 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 
 ## Credits
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 ### Content
 

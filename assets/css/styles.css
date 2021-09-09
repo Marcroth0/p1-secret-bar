@@ -86,7 +86,6 @@ header {
     min-height: 800px;
     position: relative;
     overflow: hidden;
-    background-position: center-top;
     background-repeat: no-repeat;
     background-image: url(../images/hero-image.jpg);
     background-attachment: fixed;
@@ -134,7 +133,7 @@ header {
 }
 .boxes h2 {
     font-family: rock salt;
-    font-size: 3vh;
+    font-size: 1.5rem;
 }
 
 .boxes p {
@@ -198,12 +197,12 @@ header {
 .drinks-boxes h2 {
     text-decoration: underline;
     font-family: rock salt;
-    font-size: 3vh;
+    font-size: 1.5rem;
 }
 
 .drinks-boxes h3 {
     font-family: oswald sans-serif;
-    font-size: 2.5vh;
+    font-size: 1.3rem;
 }
 
 .drinks-boxes {
@@ -224,7 +223,6 @@ header {
 }
 
 .drinks-boxes img {
-    float: center;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -412,7 +410,6 @@ input[type="number"] {
     background-position: center-top;
     background-repeat: no-repeat;
     background-image: url(../images/hero-image.jpg);
-    /* background-attachment: fixed; */
     background-size: cover;
 }
 .thank-you-text {
@@ -458,8 +455,6 @@ footer {
     left: 0;
     width: 100%;
     height: 100px;
-    /* padding: 10px 90px;
-    box-sizing: border-box; */
     background: rgba(0, 0, 0, 0.6);
 }
 

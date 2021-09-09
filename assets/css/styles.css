@@ -496,6 +496,13 @@ footer {
         align-items: center;
     }
 
+    .boxes p {
+        font-size: 1.3rem;
+    }
+    .drinks-boxes h3 {
+        font-size: 1.3rem;
+    }
+
     .drinks-4 {
         box-shadow: rgba(0, 0, 0, 0.56) 22px 22px 70px 4px;
     }
@@ -556,10 +563,16 @@ footer {
         background-attachment: scroll;
         min-height: 600px;
     }
-    .boxes div {
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4 {
         border: 1px solid white;
-        height: auto;
     }
+    .mobile-height-auto {
+        height: auto !important;
+    }
+
     .signup-form {
         margin-top: 100px;
         width: auto;

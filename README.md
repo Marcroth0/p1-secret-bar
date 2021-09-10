@@ -4,6 +4,39 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 
 ![Mockup](./assets/images/mockup.png)
 
+### Table of Contents
+
+-   [Goals](#goals)
+-   [Features](#features)
+-   [Testing](#testing)
+-   [Problems and fixes](#problems)
+-   [Somethingsomething](Goals)
+
+# Goals
+
+## Organisation Goals
+
+-   Make the customer interested in the secret.
+-   Have a website that fits the theme.
+-   Attract the "right" customers.
+
+## Organisation Stories
+
+-   I want to be able to present the website in a "cool" way.
+-   I want simple navigation to the important parts of the page (the story)
+-   I want the story to be a big part of the reason people sign up.
+-
+-
+
+## User Stories
+
+-   I want to think it's a different approach to a website
+-   I want to learn the story of Fabrizio
+-   I want to know what drinks are offered
+-   I want to feel exclusive and excited as i fill in the form
+-   I want to feel that I am one of the good people who treat their dog well.
+-   I want to think to myself after "why is a bar making me feel good about myself?"
+
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -15,54 +48,93 @@ In this section, you should go over the different parts of your project, and des
     -   The full responsive Navbar includes links to three parts of the page. Considering it's a one-page website they needed to be equally devided in thirds.
     -   One part defines a part of the websites story (The Why, The Secret, The Answer)
 
-![Nav Bar](./assets/images/navbar-readme.png)
+![Nav Bar](./assets/readme/navbar-readme.png)
 
 -   **The landing page image**
 
     -   A big centered logo in front of a background that sets the mood of the rest of the website.
     -   The Parallax-effect instantly sets the need for scrolling to stay on the site.
 
-![Landing Page](./assets/images/hero-image-readme.png)
+![Landing Page](./assets/readme/hero-image-readme.png)
 
 -   **The Why section**
 
     -   The Why Section lets the user see the first part of the story
     -   The user will connect the lightbulb with it having something to do with an idea.
 
-![The Why](./assets/images/the-why-readme.png)
+![The Why](./assets/readme/the-why-readme.png)
 
 -   **The Secret section**
 
     -   The Secret section lets user be a part of the second part of the story where charming Edward is fed up with his creation, seeking other ideas.
     -   In the story four drinks are mentioned, which are also shown underneath in a display with blurred out ingredients (to play on the secrecy)
 
-![The secret](./assets/images/the-secret-readme.png)
+![The secret](./assets/readme/the-secret-readme.png)
 
 -   **The Answer section**
 
     -   The final part of the story. Edward lets the user know what is required to get the location of the secret bar.
     -   The ending image reveals the face of Edward for the user.
 
-    ![The secret](./assets/images/the-answer-readme.png)
+    ![The secret](./assets/readme/the-answer-readme.png)
 
     **The Form section**
 
-    -
-    -
+    -   The user instantly gets informed, by the above segment, what's required in the form.
+    -   A simple, but aestetic form, which follows not only the theme but also the storyline.
 
-    ![The form](./assets/images/form-readme.png)
+    ![The form](./assets/readme/form-readme.png)
 
 -   **The Footer**
 
-### Existing Features
+    -   The user will find what is necessary(stylisticly and required) for a Secret bar:
+    -   A Social Media presence. No address, no contact information besides the form.
 
-**UX**
+![The Footer](./assets/readme/footer-readme.png)
+
+-   **Thank you Page**
+
+    -   The user get sent to a hidden part of the page after submitting
+    -   In the Map is the current location of the bar
+
+![Thank You page](./assets/readme/thankyou-readme.png)
+
+# Design
+
+## Planning
+
+I wireframed the website using Balsamiq to get a better idea of the layout. Not much the actual theme, but the structure. The images were merely placed there to give it life.
+
+![Balsamiq](./assets/readme/balsamiq-readme.png)
+
+The website, being one-paged, and more visual content than informational, it needed to be aestetically pleasing to scroll down.
+
+To achieve this i left the main content (The Why, The Secret, The Answer) be static and inbetween them let the backgrounds run in parallax effect.
+
+As guidance for the theme of the website I had my moodboard with a collection of images, which colors and character built the palette with a base of black.
+
+![MoodBoard](./assets/readme/moodboard-readme.png)
 
 ### Features Left to Implement
 
 -   Another feature idea
 
 ## Testing
+
+I tested the responsiveness of the site on the below units, using chrome dev tools:
+
+-   Moto G4 (360x640)
+-   Galaxy S5 (360x640)
+-   Pixel 2 (411x731)
+-   Pixel 2 XL (411x823)
+-   iPhone 5/SE (320x568)
+-   iPhone 6/7/8 (375x667)
+-   iPhone 6/7/8 Plus (414x736)
+-   iPhone X (375x812)
+-   iPad (768x1024)
+-   iPad Pro (1024x1366)
+
+The site worked perfectly on all devices, besides the iPad and iPad Pro. In these the Logos bottom pierced the div underneath. Solution is under "Problems and fixes"
 
 ### Validator Testing
 
@@ -73,7 +145,11 @@ In this section, you should go over the different parts of your project, and des
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+### chrome auto-fill:
+
+Al though not a fault of my initial code, but a lack thereof, chrome auto-fill turns the background white. Considering I found it not to be going away from the theme of the website i left it "unfixed".
+
+![The Footer](./assets/images/auto-fill-readme.png)
 
 ## Deployment
 

@@ -109,7 +109,7 @@ I wireframed the website using Balsamiq to get a better idea of the layout. Not 
 
 The website, being one-paged, and more visual content than informational, it needed to be aestetically pleasing to scroll down.
 
-To achieve this i left the main content (The Why, The Secret, The Answer) be static and inbetween them let the backgrounds run in parallax effect. This lets the user focus on what's static.
+To achieve this i left the main content (The Why, The Secret, The Answer) be static and inbetween them let the backgrounds run in parallax effect. This lets the user focus on what's static, whilst taking in the vibe from the parallax.
 
 As guidance for the theme of the website I had my moodboard with a collection of images, which colors and character built the palette with a base of black.
 
@@ -117,11 +117,14 @@ As guidance for the theme of the website I had my moodboard with a collection of
 
 ## Details
 
+Throughout the website I added the same shade of wine-red in tiny forms. Not much, just enough to go with the theme.
+
 ![MoodBoard](./assets/readme/details-readme.png)
 
 ### Features Left to Implement
 
--   Another feature idea
+-   A way to make sure the image being sent in is in fact their own dog. As well as see
+-
 
 ## Testing
 

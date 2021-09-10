@@ -8,7 +8,7 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 
 -   [Goals](#goals)
 -   [Features](#features)
--   [Testing](#testing)
+-   [Design](#design)
 -   [Problems and fixes](#problems)
 -   [Somethingsomething](Goals)
 
@@ -109,11 +109,15 @@ I wireframed the website using Balsamiq to get a better idea of the layout. Not 
 
 The website, being one-paged, and more visual content than informational, it needed to be aestetically pleasing to scroll down.
 
-To achieve this i left the main content (The Why, The Secret, The Answer) be static and inbetween them let the backgrounds run in parallax effect.
+To achieve this i left the main content (The Why, The Secret, The Answer) be static and inbetween them let the backgrounds run in parallax effect. This lets the user focus on what's static.
 
 As guidance for the theme of the website I had my moodboard with a collection of images, which colors and character built the palette with a base of black.
 
 ![MoodBoard](./assets/readme/moodboard-readme.png)
+
+## Details
+
+![MoodBoard](./assets/readme/details-readme.png)
 
 ### Features Left to Implement
 

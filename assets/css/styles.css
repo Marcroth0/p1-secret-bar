@@ -22,7 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background: rgba(0, 0, 0, 0.6);
-    color: whitesmoke;
+    color: #f2f2f2;
 }
 
 .logo-nav {
@@ -49,7 +49,7 @@ header {
 
 .links li a {
     text-decoration: none;
-    color: whitesmoke;
+    color: #f2f2f2;
     padding: 30px;
     font-size: 1.5rem;
     display: block;
@@ -75,7 +75,7 @@ header {
 .hamburger .line {
     height: 5px;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #f2f2f2;
     border-radius: 10px;
 }
 
@@ -130,7 +130,7 @@ header {
     height: 75vh;
     background-color: #000000;
     box-sizing: border-box;
-    color: white;
+    color: #f2f2f2;
 }
 .boxes h2 {
     font-family: rock salt;
@@ -214,7 +214,7 @@ header {
 }
 
 .drinks-boxes div {
-    color: #fafafa;
+    color: #f2f2f2;
     text-shadow: 1.5px 1.5px black;
     width: 25%;
     height: auto;
@@ -293,7 +293,7 @@ header {
 }
 
 .signup-form {
-    color: #fff;
+    color: #f2f2f2;
     text-shadow: 1px 1px black;
     background-color: rgba(66, 61, 61, 0.6);
     width: 50vh;
@@ -311,7 +311,7 @@ header {
 
 .text-input {
     background: transparent;
-    color: #fafafa;
+    color: #f2f2f2;
     width: 90%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -326,7 +326,7 @@ input[type="number"] {
 
 #file {
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid #f2f2f2;
 }
 
 .buttonfx {
@@ -334,7 +334,7 @@ input[type="number"] {
     outline: none;
     background: transparent;
     border: none;
-    border-bottom: 4px solid #eee;
+    border-bottom: 4px solid #f2f2f2;
     padding: 3px 10px;
     text-transform: uppercase;
     font: bold 16px "oswald", sans-serif;
@@ -370,7 +370,7 @@ input[type="number"] {
 }
 
 .buttonfx:hover {
-    color: white;
+    color: #f2f2f2;
 }
 
 .buttonfx:hover:after {
@@ -470,7 +470,7 @@ footer {
     font-size: 1.5rem;
     margin: 1%;
     padding: 6%;
-    color: #f0ebeb;
+    color: #f2f2f2;
     margin-top: 60px;
 }
 
@@ -570,7 +570,7 @@ footer {
     .box-2,
     .box-3,
     .box-4 {
-        border: 1px solid white;
+        border: 1px solid #f2f2f2;
     }
 
     .signup-form {

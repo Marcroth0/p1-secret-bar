@@ -84,7 +84,7 @@ header {
 /*Hero image*/
 .hero-image {
     background-size: cover;
-    min-height: 800px;
+    min-height: 900px;
     position: relative;
     overflow: hidden;
     background-repeat: no-repeat;

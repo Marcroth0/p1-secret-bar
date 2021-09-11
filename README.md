@@ -22,7 +22,7 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 
 ## Organisation Stories
 
--   I want to be able to present the website in a "cool" way.
+-   I want to be able to present the website in a different way compared to other bars.
 -   I want simple navigation to the important parts of the page (the story)
 -   I want the story to be a big part of the reason people sign up.
 -
@@ -30,12 +30,14 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 
 ## User Stories
 
--   I want to think it's a different approach to a website
--   I want to learn the story of Fabrizio
--   I want to know what drinks are offered
--   I want to feel exclusive and excited as i fill in the form
--   I want to feel that I am one of the good people who treat their dog well.
--   I want to think to myself after "why is a bar making me feel good about myself?"
+1.  I want to think it's a different approach to a website
+2.  I want to learn the story of Fabrizio
+3.  I want to know what drinks are offered
+4.  I want to feel exclusive and excited as i fill in the form
+5.  I want to feel that I am one of the good people who treat their dog well.
+6.  I want to think to myself after "why is a bar making me feel good about myself?"
+7.  I want to easily navigate through the website
+8.
 
 ## Features
 
@@ -76,14 +78,14 @@ In this section, you should go over the different parts of your project, and des
     -   The final part of the story. Edward lets the user know what is required to get the location of the secret bar.
     -   The ending image reveals the face of Edward for the user.
 
-    ![The secret](./assets/readme/the-answer-readme.png)
+![The secret](./assets/readme/the-answer-readme.png)
 
-    **The Form section**
+-   **The Form section**
 
     -   The user instantly gets informed, by the above segment, what's required in the form.
     -   A simple, but aestetic form, which follows not only the theme but also the storyline.
 
-    ![The form](./assets/readme/form-readme.png)
+![The form](./assets/readme/form-readme.png)
 
 -   **The Footer**
 
@@ -109,7 +111,7 @@ I wireframed the website using Balsamiq to get a better idea of the layout. Not 
 
 The website, being one-paged, and more visual content than informational, it needed to be aestetically pleasing to scroll down.
 
-To achieve this i left the main content (The Why, The Secret, The Answer) be static and inbetween them let the backgrounds run in parallax effect. This lets the user focus on what's static, whilst taking in the vibe from the parallax.
+To achieve this i left the main content (The Why, The Secret, The Answer) be static and inbetween them let the backgrounds run in parallax effect. This lets the user focus on what's static, whilst taking in the vibe from the background-parallax.
 
 As guidance for the theme of the website I had my moodboard with a collection of images, which colors and character built the palette with a base of black.
 
@@ -128,7 +130,7 @@ Throughout the website I added the same shade of wine-red in tiny forms. Not muc
 
 ## Testing
 
-I tested the responsiveness of the site on the below units, using chrome dev tools:
+I tested the responsiveness of the site on the below units, using chrome dev as well as in real life testing:
 
 -   Moto G4 (360x640)
 -   Galaxy S5 (360x640)
@@ -141,7 +143,24 @@ I tested the responsiveness of the site on the below units, using chrome dev too
 -   iPad (768x1024)
 -   iPad Pro (1024x1366)
 
-The site worked perfectly on all devices, besides the iPad and iPad Pro. In these the Logos bottom pierced the div underneath. Solution is under "Problems and fixes"
+Browsers:
+
+-   Chrome
+-   Mozilla Firefox
+-   Safari
+-   Edge
+
+Results for testing are found in attached tables:
+
+[Phones](./assets/readme/phones-readme.pdf)
+
+[Browsers](./assets/readme/browsers-readme.pdf)
+
+Solution is under "Problems and fixes"
+
+### Lighthouse
+
+![Lighthouse](./assets/readme/lighthouse-readme.png)
 
 ### Validator Testing
 
@@ -152,11 +171,50 @@ The site worked perfectly on all devices, besides the iPad and iPad Pro. In thes
 
 ### Unfixed Bugs
 
-### chrome auto-fill:
+### Chrome auto-fill:
 
-Al though not a fault of my initial code, but a lack thereof, chrome auto-fill turns the background white. Considering I found it not to be going away from the theme of the website i left it "unfixed".
+Al though not a fault of my initial code, but a lack thereof, chrome auto-fill turns the background white. Considering I found it not to be going away from the theme of the website i left it "unfixed" at first.
 
-![The Footer](./assets/images/auto-fill-readme.png)
+![The Footer](./assets/readme/auto-fill-readme.png)
+
+# Problems and solutions
+
+### Safari auto-fill
+
+In contrary to Chromes autofill (which turned it white, as you can see above) Safari turns it a yellow-ish color which had to be changed since it didn't fit the theme of the website and didn't give off a professional look.
+
+Solution was the below code:
+
+```
+input:-webkit-autofill,
+input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 60px #fafafa inset !important; background-color: #fafafa !important; background-clip: content-box !important; }
+```
+
+This worked on all websites, turning the background caused by auto-fill to turn white.
+
+https://stackoverflow.com/questions/41871618/how-to-change-safari-autofill-yellow-background-color
+
+### iPad/iPad pro portrait/landscape
+
+The issue I ran into portrayed itself in the logo, as well as the background images being zoomed in.
+The logo went over the below section on both portrait and landscape. Below code fixed both issues:
+
+```@media only screen and (min-device-width: 768px) and (max-device-width: 1370px) and (orientation: landscape) {
+    .hero-image {
+        min-height: 1100px;
+        background-attachment: scroll;
+    }
+    .parallax-three,
+    .parallax-two,
+    .parallax-four,
+    .form-section {
+        background-attachment: scroll;
+    }
+}
+```
+
+By turning off parallax not only for mobile, but for iPad as well, the images looked fantastic. The height change for the hero-image solved the logo issue on both portrait and landscape.
 
 ## Deployment
 

@@ -2,15 +2,16 @@
 
 The Va Bene Bar is a site that will help the curious, the artistic, the seeker of tiny adventures, to find a bar suitable for them. A secret will always be an attractive aspect to an activity, because of the simple reason that it's fun to talk about it. The site hopes to do just that, attract peoples interest in being one of the few that get to visit it.
 
-![Mockup](./assets/images/mockup.png)
+![Mockup](./assets/readme/mockup-readme.png)
 
 ### Table of Contents
 
 -   [Goals](#goals)
 -   [Features](#features)
 -   [Design](#design)
--   [Problems and fixes](#problems)
--   [Somethingsomething](Goals)
+-   [Testing](#testing)
+-   [Problems and solutions](#Problems)
+-   [Credits](#credits)
 
 # Goals
 
@@ -25,8 +26,6 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 -   I want to be able to present the website in a different way compared to other bars.
 -   I want simple navigation to the important parts of the page (the story)
 -   I want the story to be a big part of the reason people sign up.
--
--
 
 ## User Stories
 
@@ -37,11 +36,8 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 5.  I want to feel that I am one of the good people who treat their dog well.
 6.  I want to think to myself after "why is a bar making me feel good about myself?"
 7.  I want to easily navigate through the website
-8.
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
@@ -49,6 +45,7 @@ In this section, you should go over the different parts of your project, and des
 
     -   The full responsive Navbar includes links to three parts of the page. Considering it's a one-page website they needed to be equally devided in thirds.
     -   One part defines a part of the websites story (The Why, The Secret, The Answer)
+    -   (Answers User Stories 7, 1,)
 
 ![Nav Bar](./assets/readme/navbar-readme.png)
 
@@ -63,6 +60,7 @@ In this section, you should go over the different parts of your project, and des
 
     -   The Why Section lets the user see the first part of the story
     -   The user will connect the lightbulb with it having something to do with an idea.
+    -   (Answers User Stories 2)
 
 ![The Why](./assets/readme/the-why-readme.png)
 
@@ -70,13 +68,14 @@ In this section, you should go over the different parts of your project, and des
 
     -   The Secret section lets user be a part of the second part of the story where charming Edward is fed up with his creation, seeking other ideas.
     -   In the story four drinks are mentioned, which are also shown underneath in a display with blurred out ingredients (to play on the secrecy)
+    -   (Answers User Stories 2, 3)
 
 ![The secret](./assets/readme/the-secret-readme.png)
 
 -   **The Answer section**
 
-    -   The final part of the story. Edward lets the user know what is required to get the location of the secret bar.
-    -   The ending image reveals the face of Edward for the user.
+    -   The final part of the story. Fabrizio lets the user know what is required to get the location of the secret bar.
+    -   The ending image reveals the face of Fabrizio for the user. (Answers User Stories 2)
 
 ![The secret](./assets/readme/the-answer-readme.png)
 
@@ -84,6 +83,7 @@ In this section, you should go over the different parts of your project, and des
 
     -   The user instantly gets informed, by the above segment, what's required in the form.
     -   A simple, but aestetic form, which follows not only the theme but also the storyline.
+    -   (Answers User Stories 4,5)
 
 ![The form](./assets/readme/form-readme.png)
 
@@ -97,7 +97,8 @@ In this section, you should go over the different parts of your project, and des
 -   **Thank you Page**
 
     -   The user get sent to a hidden part of the page after submitting
-    -   In the Map is the current location of the bar
+    -   In the Map is the current location of the bar.
+    -   (Answers User Stories)
 
 ![Thank You page](./assets/readme/thankyou-readme.png)
 
@@ -105,21 +106,21 @@ In this section, you should go over the different parts of your project, and des
 
 ## Planning
 
-I wireframed the website using Balsamiq to get a better idea of the layout. Not much the actual theme, but the structure. The images were merely placed there to give it life.
+<p>I wireframed the website using Balsamiq to get a better idea of the layout. Not much the actual theme, but the structure. The images were merely placed there to give it life.</p>
 
 ![Balsamiq](./assets/readme/balsamiq-readme.png)
 
-The website, being one-paged, and more visual content than informational, it needed to be aestetically pleasing to scroll down.
+<p>The website, being one-paged, and more visual content than informational, it needed to be aestetically pleasing to scroll down.</p>
 
-To achieve this i left the main content (The Why, The Secret, The Answer) be static and inbetween them let the backgrounds run in parallax effect. This lets the user focus on what's static, whilst taking in the vibe from the background-parallax.
+<p>To achieve this i left the main content (The Why, The Secret, The Answer) be static and inbetween them let the backgrounds run in parallax effect. This lets the user focus on what's static, whilst taking in the vibe from the background-parallax.</p>
 
-As guidance for the theme of the website I had my moodboard with a collection of images, which colors and character built the palette with a base of black.
+<p>As guidance for the theme of the website I had my moodboard with a collection of images, which colors and character built the palette with a base of black.</p>
 
 ![MoodBoard](./assets/readme/moodboard-readme.png)
 
 ## Details
 
-Throughout the website I added the same shade of wine-red in tiny forms. Not much, just enough to go with the theme.
+<p>Throughout the website I added the same shade of wine-red in tiny forms. Not much, just enough to go with the theme.</p>
 
 ![MoodBoard](./assets/readme/details-readme.png)
 
@@ -128,9 +129,9 @@ Throughout the website I added the same shade of wine-red in tiny forms. Not muc
 -   A way to make sure the image being sent in is in fact their own dog. As well as see
 -
 
-## Testing
+# Testing
 
-I tested the responsiveness of the site on the below units, using chrome dev as well as in real life testing:
+<p>I tested the responsiveness of the site on the below units, using chrome dev as well as in real life testing:</p>
 
 -   Moto G4 (360x640)
 -   Galaxy S5 (360x640)
@@ -150,17 +151,49 @@ Browsers:
 -   Safari
 -   Edge
 
-Results for testing are found in attached tables:
+### Testing requirements:
+
+**NavBar**
+
+<p>Clicked on every link, including logo, to make sure they directed me to the correct place. </p>
+
+**Responsiveness**
+
+<p>Made sure nothing overflows.</p>
+
+**Form**
+
+-   Tested filling everything in as required and made sure it took me to the thank-you page.
+-   Tested filling everyhing but required email
+-   Tested filling everthing but required age
+
+**Details**
+
+<p>Made sure all the color-details were shown: drinks hover-effect, submit button hover-effect, and navigation hover-effect.</p>
+
+**Fonts**
+
+<p>Made sure the chosen fonts work on all devices tested.
+
+Results for testing are found in attached tables:</p>
 
 [Phones](./assets/readme/phones-readme.pdf)
 
 [Browsers](./assets/readme/browsers-readme.pdf)
 
-Solution is under "Problems and fixes"
+<p>Solution is under "Problems and fixes"</p>
 
 ### Lighthouse
 
-![Lighthouse](./assets/readme/lighthouse-readme.png)
+<p>Lighthouse analysis came back positive on desktop</p>
+
+![Lighthouse](./assets/readme/lighthouse-desktop-readme.png)
+
+<p>
+Mobile:
+Due to the website being image-heavy I completed a trial of compressing all images to WebP but performance dropped below 70 and I decided to stick with jpg/png.</p>
+
+![Lighthouse](./assets/readme/lighthouse-mobile-readme.png)
 
 ### Validator Testing
 
@@ -169,21 +202,13 @@ Solution is under "Problems and fixes"
 -   CSS
     -   No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-### Unfixed Bugs
-
-### Chrome auto-fill:
-
-Al though not a fault of my initial code, but a lack thereof, chrome auto-fill turns the background white. Considering I found it not to be going away from the theme of the website i left it "unfixed" at first.
-
-![The Footer](./assets/readme/auto-fill-readme.png)
-
-# Problems and solutions
+# Problems / Solutions
 
 ### Safari auto-fill
 
-In contrary to Chromes autofill (which turned it white, as you can see above) Safari turns it a yellow-ish color which had to be changed since it didn't fit the theme of the website and didn't give off a professional look.
+<p>In contrary to Chromes autofill (which turned it white, as you can see further down) Safari turns it a yellow-ish color which had to be changed since it didn't fit the theme of the website and didn't give off a professional look.
 
-Solution was the below code:
+Solution was the below code:</p>
 
 ```
 input:-webkit-autofill,
@@ -191,9 +216,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofi
     -webkit-box-shadow: 0 0 0 60px #fafafa inset !important; background-color: #fafafa !important; background-clip: content-box !important; }
 ```
 
-This worked on all websites, turning the background caused by auto-fill to turn white.
-
-https://stackoverflow.com/questions/41871618/how-to-change-safari-autofill-yellow-background-color
+<p>This worked on all websites, turning the background caused by auto-fill to turn white.</p>
 
 ### iPad/iPad pro portrait/landscape
 
@@ -216,6 +239,14 @@ The logo went over the below section on both portrait and landscape. Below code 
 
 By turning off parallax not only for mobile, but for iPad as well, the images looked fantastic. The height change for the hero-image solved the logo issue on both portrait and landscape.
 
+## Unfixed Bugs
+
+### Chrome auto-fill:
+
+Al though not a fault of my initial code, but a lack thereof, chrome auto-fill turns the background white. Considering I found it not to be going away from the theme of the website i left it "unfixed" at first.
+
+![The Footer](./assets/readme/auto-fill-readme.png)
+
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
@@ -225,38 +256,34 @@ This section should describe the process you went through to deploy the project 
     -   From the source section drop-down menu, select the Master Branch
     -   Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - https://marcroth0.github.io/p1-secret-bar/
 
 ## Credits
 
 ### Content
 
--   The text for the Home page was taken from Wikipedia Article A
--   Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+-   Instructions on how to implement form submit button effect on the Sign Up page was taken from [CodePen](https://codepen.io/georgec/pen/qVLVLG)
 -   The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+-   Instructions on how to use FlexBox was learnt from [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+-   Solution for the iPad/iPad Pro issue was found [WP Sites](https://wpsites.net/web-design/css-for-media-queries-for-ipad-in-landscape-or-portrait-display/)
 
 ### Media
 
--   The photos used on the home and sign up page are from This Open Source site
--   The images used for the gallery page were taken from this other open source site
+The photos used on the website are from [Unsplash](https://unsplash.com/)
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+Photographers behind used images:
 
-## Other General Project Advice
+[Vinicius "amnx" Amano](https://unsplash.com/@viniciusamano)
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
+[Terry Vlisidis](https://unsplash.com/@vlisidis)
 
--   One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write a Git Commit Message
+[Nuff](https://unsplash.com/@nuff)
 
-    -   Make sure to keep the messages in the imperative mood
+[Charles Deluvio](https://unsplash.com/@charlesdeluvio)
 
--   When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
+[Andrea Riezzo](https://unsplash.com/@andriezzo)
 
-    -   For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
+[Patrick Tomasso](https://unsplash.com/@impatrickt)
 
--   Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-    -   [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-    -   [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-    -   [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
+[Rok Zabukovec](https://unsplash.com/@rokjecar)

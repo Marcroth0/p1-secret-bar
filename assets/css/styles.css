@@ -53,7 +53,7 @@ header {
     padding: 30px;
     font-size: 1.5rem;
     display: block;
-    font-family: oswald, sans-serif;
+    font-family: "oswald", sans-serif;
 }
 
 .links li:hover {
@@ -133,12 +133,12 @@ header {
     color: #f2f2f2;
 }
 .boxes h2 {
-    font-family: rock salt;
+    font-family: "rock salt";
     font-size: 1.5rem;
 }
 
 .boxes p {
-    font-family: oswald sans-serif;
+    font-family: "oswald", sans-serif;
     font-size: 1.3rem;
     letter-spacing: 2px;
 }
@@ -197,12 +197,12 @@ header {
 
 .drinks-boxes h2 {
     text-decoration: underline;
-    font-family: rock salt;
+    font-family: "rock salt";
     font-size: 1.5rem;
 }
 
 .drinks-boxes h3 {
-    font-family: oswald sans-serif;
+    font-family: "oswald", sans-serif;
     font-size: 1.3rem;
 }
 
@@ -289,7 +289,7 @@ header {
     background-size: cover;
     position: relative;
     display: block;
-    font-family: oswald sans-serif;
+    font-family: "oswald", sans-serif;
 }
 
 .signup-form {
@@ -415,7 +415,6 @@ input[type="number"] {
 .thank-you-text {
     background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
-    border-radius: 2px solid white;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -434,16 +433,16 @@ input[type="number"] {
 }
 
 .thank-you-text h1 {
-    color: whitesmoke;
-    font-family: Rock Salt;
+    color: #f2f2f2;
+    font-family: "Rock Salt";
     font-size: 2rem;
     text-shadow: 0 0 8px rgb(124, 121, 121);
     text-align: center;
     justify-content: center;
 }
 .thank-you-text h2 {
-    color: whitesmoke;
-    font-family: oswald sans-serif;
+    color: #f2f2f2;
+    font-family: "oswald", sans-serif;
     padding: 5px;
     font-size: 1.5rem;
 }

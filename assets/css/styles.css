@@ -88,7 +88,7 @@ header {
     position: relative;
     overflow: hidden;
     background-repeat: no-repeat;
-    background-image: url(../images/hero-image.webp);
+    background-image: url(../images/hero-image.jpg);
     background-attachment: fixed;
     background-size: cover;
     filter: blur(5px);
@@ -96,7 +96,7 @@ header {
 }
 
 .cover-logo-image {
-    background-image: url(../images/hero-logo.webp);
+    background-image: url(../images/hero-logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 70vh;
@@ -155,7 +155,7 @@ header {
 }
 
 .box-1-img {
-    background-image: url(../images/box-img-1.webp);
+    background-image: url(../images/box-img-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -163,7 +163,7 @@ header {
 /*Parallax two*/
 
 .parallax-two {
-    background-image: url(../images/parallax-two.webp);
+    background-image: url(../images/parallax-two.jpg);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -183,7 +183,7 @@ header {
 }
 
 .box-2-img {
-    background-image: url(../images/box-img-two.webp);
+    background-image: url(../images/box-img-two.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -243,7 +243,7 @@ header {
 
 /*parallax three*/
 .parallax-three {
-    background-image: url(../images/parallax-three.webp);
+    background-image: url(../images/parallax-three.jpg);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -263,14 +263,14 @@ header {
 }
 
 .box-3-img {
-    background-image: url(../images/box-img-three-2.webp);
+    background-image: url(../images/box-img-three-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 /* parallax four */
 .parallax-four {
-    background-image: url(../images/parallax-four.webp);
+    background-image: url(../images/parallax-four.jpg);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -281,7 +281,7 @@ header {
 /*Form*/
 
 .form-section {
-    background: url("../images/parallax-four.webp");
+    background: url("../images/parallax-four.jpg");
     min-height: 700px;
     background-attachment: fixed;
     background-position: center;
@@ -409,7 +409,7 @@ input[type="number"] {
     min-height: 800px;
     position: relative;
     background-repeat: no-repeat;
-    background-image: url(../images/hero-image.webp);
+    background-image: url(../images/hero-image.jpg);
     background-size: cover;
 }
 .thank-you-text {

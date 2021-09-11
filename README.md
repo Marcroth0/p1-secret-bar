@@ -10,7 +10,7 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 -   [Features](#features)
 -   [Design](#design)
 -   [Testing](#testing)
--   [Problems and solutions](#Problems)
+-   [Problems and Solutions](#problems-and-solutions)
 -   [Credits](#credits)
 
 # Goals
@@ -29,13 +29,12 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 
 ## User Stories
 
-1.  I want to think it's a different approach to a website
-2.  I want to learn the story of Fabrizio
-3.  I want to know what drinks are offered
-4.  I want to feel exclusive and excited as i fill in the form
-5.  I want to feel that I am one of the good people who treat their dog well.
-6.  I want to think to myself after "why is a bar making me feel good about myself?"
-7.  I want to easily navigate through the website
+1.  As a user I want to have a clear knowing of the websites purpose.
+2.  As a user I want to feel engaged in the website.
+3.  As a user I want to know what drinks are offered.
+4.  As a user I appreciate friendliness towards animals.
+5.  As a user I want the feeling of being a selected few.
+6.  As a user I want to easily navigate through the website.
 
 ## Features
 
@@ -144,7 +143,7 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 -   iPad (768x1024)
 -   iPad Pro (1024x1366)
 
-Browsers:
+**Browsers:**
 
 -   Chrome
 -   Mozilla Firefox
@@ -202,7 +201,7 @@ Due to the website being image-heavy I completed a trial of compressing all imag
 -   CSS
     -   No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-# Problems / Solutions
+# Problems and Solutions
 
 ### Safari auto-fill
 

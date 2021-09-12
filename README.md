@@ -115,12 +115,9 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 
 8.  ### Thank you Page
 
-    -   The user get sent to a hidden part of the page after submitting
-        In the Map is the current location of the bar.
+    -   The user get sent to a simple "thank you" page after submitting.
 
-    (Answers User Stories 4,5)
-
-![Thank You page](./assets/readme/thankyou-readme.png)
+![Thank You page](./assets/readme/thank-you-readme.png)
 
 ## Design
 

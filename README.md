@@ -51,7 +51,7 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 
 -   Adventurous souls looking to find a secret place.
 -   The animal lover wanting to find a place with its values.
--   Anyone who wants to feel exclusive.
+-   Anyone who wants to feel exclusive and find the place to call theirs.
 
 ## Features
 
@@ -59,7 +59,7 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 
     - The full responsive Navbar includes links to three parts of the page. Considering it's a one-page website they needed to be equally devided in thirds.
     - One part defines a part of the websites story (The Why, The Secret, The Answer)
-    - (Answers User Stories 7, 1,)
+    - (Answers User Stories 6)
 
 ![Nav Bar](./assets/readme/navbar-readme.png)
 
@@ -68,13 +68,15 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
     - A big centered logo in front of a background that sets the mood of the rest of the website.
     - The Parallax-effect instantly sets the need for scrolling to stay on the site.
 
+    - (Answers user story 1)
+
 ![Landing Page](./assets/readme/hero-image-readme.png)
 
 3. ### The Why section
 
     - The Why Section lets the user see the first part of the story
     - The user will connect the lightbulb with it having something to do with an idea.
-    - (Answers User Stories 2)
+    - (Answers User Stories 2, 4)
 
 ![The Why](./assets/readme/the-why-readme.png)
 
@@ -97,7 +99,7 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 
     -   The user instantly gets informed, by the above segment, what's required in the form.
     -   A simple, but aestetic form, which follows not only the theme but also the storyline.
-    -   (Answers User Stories 4,5)
+    -   (Answers User Stories 2,4,5)
 
 ![The form](./assets/readme/form-readme.png)
 
@@ -113,7 +115,7 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
     -   The user get sent to a hidden part of the page after submitting
         In the Map is the current location of the bar.
 
-    (Answers User Stories)
+    (Answers User Stories 4,5)
 
 ![Thank You page](./assets/readme/thankyou-readme.png)
 
@@ -134,6 +136,12 @@ To achieve this i left the main content (The Why, The Secret, The Answer) be sta
 Throughout the website I added the same shade of wine-red in tiny forms. Not much, just enough to go with the theme.
 
 ![MoodBoard](./assets/readme/details-readme.png)
+
+Mobile Details:
+
+In order to keep the user focused on the story borders were added on mobile to the text content sections.
+
+![Mobile Border](./assets/readme/mobile-border-readme.png)
 
 ### Fonts
 

@@ -595,7 +595,7 @@ footer {
 
 /* Ipad */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .hero-image {
         min-height: 1200px;
         background-attachment: scroll;
@@ -609,7 +609,7 @@ footer {
 }
 
 /* iPad Pro */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1370px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1370px) and (orientation: landscape) {
     .hero-image {
         min-height: 1100px;
         background-attachment: scroll;

@@ -327,6 +327,8 @@ The live link can be found here - https://marcroth0.github.io/p1-secret-bar/
 
 -   Solution for the iPad/iPad Pro issue was found on [WP Sites](https://wpsites.net/web-design/css-for-media-queries-for-ipad-in-landscape-or-portrait-display/)
 
+-   Solution for the auto-fill issue was found on [StackOverflow](https://stackoverflow.com/questions/41871618/how-to-change-safari-autofill-yellow-background-color)
+
 ### Media
 
 The photos used on the website are from [Unsplash](https://unsplash.com/)

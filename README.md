@@ -209,7 +209,7 @@ Made sure all the color-details were shown: drinks hover-effect, submit button h
 
 Made sure the chosen fonts work on all devices tested.
 
-Results for testing are found in attached tables:
+Results for testing are found in attached tables below.
 
 **Results:**
 

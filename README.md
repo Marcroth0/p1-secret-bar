@@ -85,7 +85,7 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 
 4.  ### The Secret section
 
-    -   The Secret section lets user be a part of the second part of the story where charming Edward is fed up with his creation, seeking other ideas.
+    -   The Secret section lets user be a part of the second part of the story where charming Fabrizio is fed up with his creation, seeking other ideas.
     -   In the story four drinks are mentioned, which are also shown underneath in a display with blurred out ingredients (to play on the secrecy)
     -   (Answers User Stories 2, 3)
 
@@ -240,7 +240,7 @@ Due to the website being image-heavy I completed a trial of compressing all imag
 
 -   CSS
 
-    -   No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+    -   No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmarcroth0.github.io%2Fp1-secret-bar%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ![W3C-css](./assets/readme/w3c-css-readme.png)
 

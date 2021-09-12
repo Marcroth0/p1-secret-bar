@@ -17,9 +17,10 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 3. [Design](#design)
     1. [Planning](#planning)
     2. [Details](#details)
-    3. [Fonts](#fonts)
-    4. [Structure](#structure)
-    5. [Imagery](#imagery)
+    3. [Mobile](#mobile-details)
+    4. [Fonts](#fonts)
+    5. [Structure](#structure)
+    6. [Imagery](#imagery)
 4. [Testing](#testing)
     1. [Testing Requirements](#testing-requirements)
     2. [Results](#results)
@@ -59,7 +60,7 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 
 1. ### Navigation Bar
 
-    - The full responsive Navbar includes links to three parts of the page. Considering it's a one-page website they needed to be equally devided in thirds.
+    - The fully responsive Navbar includes links to three parts of the page. Considering it's a one-page website they needed to be equally devided in thirds.
     - One part defines a part of the websites story (The Why, The Secret, The Answer)
     - (Answers User Stories 6)
 
@@ -139,11 +140,15 @@ Throughout the website I added the same shade of wine-red in tiny forms. Not muc
 
 ![MoodBoard](./assets/readme/details-readme.png)
 
-Mobile Details:
+### Mobile Details:
 
 In order to keep the user focused on the story borders were added on mobile to the text content sections.
 
 ![Mobile Border](./assets/readme/mobile-border-readme.png)
+
+Hamburger as a navbar was the cleanest- and best looking way to go on mobile.
+
+![Hamburger](./assets/readme/hamburger-readme.png)
 
 ### Fonts
 
@@ -158,11 +163,6 @@ The structure is entirely made of boxes in a 1-2 sequence. An image followed by 
 As guidance for the theme of the website I had my moodboard with a collection of images, which colors and character built the palette with a base of black.
 
 ![MoodBoard](./assets/readme/moodboard-readme.png)
-
-### Features Left to Implement
-
--   A way to make sure the image being sent in is in fact their own dog. As well as see
--
 
 ## Testing
 
@@ -239,10 +239,13 @@ Due to the website being image-heavy I completed a trial of compressing all imag
 
     -   No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarcroth0.github.io%2Fp1-secret-bar%2F)
 
-![W3C](./assets/readme/w3c-html-readme.png)
+![W3C-css](./assets/readme/w3c-html-readme.png)
 
 -   CSS
+
     -   No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+![W3C-css](./assets/readme/w3c-css-readme.png)
 
 ## Problems and Solutions
 
@@ -301,6 +304,10 @@ By turning off parallax not only for mobile, but for iPad as well, the images lo
 Although not a fault of my initial code, but a lack thereof, chrome auto-fill turns the background white. Considering I found it not to be going away from the theme of the website i left it "unfixed" at first.
 
 ![The Footer](./assets/readme/auto-fill-readme.png)
+
+## Features Left to Implement
+
+-   An image-analyzing software to determine whether or not it is in fact a happy dog.
 
 ## Deployment
 

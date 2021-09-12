@@ -64,7 +64,7 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
     - One part defines a part of the websites story (The Why, The Secret, The Answer)
     - (Answers User Stories 6)
 
-![Nav Bar](./assets/readme/navbar-readme.png)
+![Navbar](./assets/readme/navbar-readme.png)
 
 2. ### The landing page image
 

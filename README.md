@@ -317,6 +317,8 @@ The live link can be found here - https://marcroth0.github.io/p1-secret-bar/
 
 ## Credits
 
+-   Assistance in keeping my images compressed and give better performance to the website was done by [ImgBot](https://imgbot.net/app/)
+
 ### Content
 
 -   Instructions on how to implement form submit button effect on the Sign Up page was learnt from [CodePen](https://codepen.io/georgec/pen/qVLVLG)

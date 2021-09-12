@@ -622,6 +622,14 @@ footer {
     }
 }
 
+/*Large screens*/
+
+@media screen and (min-width: 1600px) {
+    .hero-image {
+        min-height: 1400px;
+    }
+}
+
 /* Auto-fill color */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,

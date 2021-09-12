@@ -329,7 +329,7 @@ The live link can be found here - https://marcroth0.github.io/p1-secret-bar/
 
 -   Solution for the auto-fill issue was found on [StackOverflow](https://stackoverflow.com/questions/41871618/how-to-change-safari-autofill-yellow-background-color)
 
-### Media
+## Media
 
 The photos used on the website are from [Unsplash](https://unsplash.com/)
 

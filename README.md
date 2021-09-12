@@ -49,6 +49,10 @@ The Va Bene Bar is a site that will help the curious, the artistic, the seeker o
 
 ### Target audience
 
+-   Adventurous souls looking to find a secret place.
+-   The animal lover wanting to find a place with its values.
+-   Anyone who wants to feel exclusive.
+
 ## Features
 
 1. ### Navigation Bar

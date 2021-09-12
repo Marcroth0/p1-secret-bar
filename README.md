@@ -1,5 +1,7 @@
 # Va Bene Bar
 
+Live link: https://marcroth0.github.io/p1-secret-bar/
+
 The Va Bene Bar is a site that will help the curious, the artistic, the seeker of tiny adventures, to find a bar suitable for them. A secret will always be an attractive aspect to an activity, because of the simple reason that it's fun to talk about it. The site hopes to do just that, attract peoples interest in being one of the few that get to visit it.
 
 ![Mockup](./assets/readme/mockup-readme.png)
@@ -234,7 +236,11 @@ Due to the website being image-heavy I completed a trial of compressing all imag
 ### Validator Testing
 
 -   HTML
-    -   No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+
+    -   No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarcroth0.github.io%2Fp1-secret-bar%2F)
+
+![W3C](./assets/readme/w3c-html-readme.png)
+
 -   CSS
     -   No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
@@ -259,7 +265,20 @@ This worked on all websites, turning the background caused by auto-fill to turn 
 The issue I ran into portrayed itself in the logo, as well as the background images being zoomed in.
 The logo went over the below section on both portrait and landscape. Below code fixed both issues:
 
-```@media only screen and (min-device-width: 768px) and (max-device-width: 1370px) and (orientation: landscape) {
+```@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .hero-image {
+        min-height: 1200px;
+        background-attachment: scroll;
+    }
+    .parallax-three,
+    .parallax-two,
+    .parallax-four,
+    .form-section {
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1370px) and (orientation: landscape) {
     .hero-image {
         min-height: 1100px;
         background-attachment: scroll;
